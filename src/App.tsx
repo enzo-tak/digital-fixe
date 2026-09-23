@@ -251,7 +251,7 @@ const MR_CSS = `
   .mr-on [data-mr="pill"]:not(.mr-in) { clip-path: inset(0 0 100% 0 round 900px); transform: translateY(45%); opacity: 0; transition: none; }
   .mr-on [data-mr="pill"].mr-in { clip-path: inset(-10px -10px -10px -10px round 900px); }
 `
-
+// Rebuild trigger - assets fix
 export default function App() {
   useLayoutEffect(() => initMaskReveal(), [])
 
