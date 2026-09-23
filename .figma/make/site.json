@@ -2,11 +2,17 @@
   "title": "Digital Fixe",
   "description": "Agência de marketing digital em Lisboa. SEO Local, Google Business Profile, criação de websites para pequenas empresas. Consultoria estratégica para salões, restaurantes e clínicas.",
   "language": "pt",
+  "robots": {
+    "index": true
+  },
   "icons": {
     "icon": "/.figma/make/favicon.png"
   },
   "openGraph": {
     "image": "/.figma/make/social-image.png"
+  },
+  "analytics": {
+    "googleAnalyticsId": "G-MKQ1WCCBVR"
   },
   "customScripts": {
     "headStart": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"LocalBusiness\",\n  \"@id\": \"https://www.digitalfixe.pt\",\n  \"name\": \"Digital Fixe\",\n  \"description\": \"Agência de marketing digital em Lisboa\",\n  \"url\": \"https://www.digitalfixe.pt\",\n  \"image\": \"https://www.digitalfixe.pt/logo.png\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Lisboa\",\n    \"addressCountry\": \"PT\"\n  },\n  \"sameAs\": [\"https://www.linkedin.com/company/digital-fixe\"]\n}\n</script>"
