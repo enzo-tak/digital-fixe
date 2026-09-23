@@ -16,6 +16,9 @@ export default defineConfig(({ mode }) => {
     build: {
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
+      assetsDir: 'assets',
+      copyPublicDir: true,
+      outDir: 'dist',
     },
     plugins: [
 react(),
