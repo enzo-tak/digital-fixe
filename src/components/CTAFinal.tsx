@@ -28,7 +28,7 @@ export default function CTAFinal() {
           boxShadow: 'inset 0px 0px 20px 0px rgba(76,141,255,0.3)',
           marginBottom: 32,
         }}>
-          <img src={iconStar} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
+          <img loading="lazy" src={iconStar} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
           <span style={{
             fontFamily: FONT_EXP, fontSize: 24, lineHeight: 1.1,
             background: 'linear-gradient(90deg, #002E80 9%, #3162E0 82%, #002E80)',

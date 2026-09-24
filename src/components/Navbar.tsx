@@ -32,7 +32,7 @@ export default function Navbar() {
       >
         {/* Logo */}
         <a href="#inicio" className="flex-shrink-0">
-          <img src={logoImg} alt="Digital Fixe" className="h-[40px] w-[137px] md:h-[48px] md:w-[164px] object-contain" />
+          <img loading="lazy" src={logoImg} alt="Digital Fixe" className="h-[40px] w-[137px] md:h-[48px] md:w-[164px] object-contain" />
         </a>
 
         {/* Desktop links */}
@@ -79,7 +79,7 @@ export default function Navbar() {
           {/* Close button */}
           <div className="flex items-center justify-between px-7 md:px-16 pt-5 md:pt-8">
             <a href="#inicio" onClick={() => setMenuOpen(false)}>
-              <img src={logoImg} alt="Digital Fixe" className="h-[40px] w-[137px] md:h-[48px] md:w-[164px] object-contain" />
+              <img loading="lazy" src={logoImg} alt="Digital Fixe" className="h-[40px] w-[137px] md:h-[48px] md:w-[164px] object-contain" />
             </a>
             <button
               className="flex items-center justify-center w-11 h-11 focus:outline-none"

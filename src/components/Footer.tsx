@@ -120,17 +120,17 @@ export default function Footer() {
             <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
                  style={{ display: 'block', flexShrink: 0 }}>
-                <img src={iconInstagram} alt="Instagram" width={40} height={40} />
+                <img loading="lazy" src={iconInstagram} alt="Instagram" width={40} height={40} />
               </a>
               <a href="https://digitalfixe.pt" target="_blank" rel="noopener noreferrer"
                  style={{ display: 'block', flexShrink: 0 }}>
-                <img src={iconWebsite} alt="Website" width={40} height={40} />
+                <img loading="lazy" src={iconWebsite} alt="Website" width={40} height={40} />
               </a>
             </div>
 
             {/* Location */}
             <div style={{ display: 'flex', alignItems: 'center', gap: 8 }} className="ft-loc">
-              <img src={iconMapPin} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
+              <img loading="lazy" src={iconMapPin} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
               <span style={{
                 fontFamily: FONT_REG, fontWeight: 400,
                 fontSize: 24, lineHeight: '16px',

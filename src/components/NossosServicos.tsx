@@ -197,7 +197,7 @@ export default function NossosServicos() {
                 alignSelf: 'flex-start',
               }}
             >
-              <img src={iconStar} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
+              <img loading="lazy" src={iconStar} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
               <span
                 style={{
                   fontFamily: FONT_EXP,

@@ -31,7 +31,7 @@ function ContactCard({ icon, label, value, href }: {
         background: 'rgba(0,46,128,0.4)',
         border: '1.215px solid #002E80',
       }}>
-        <img src={icon} alt="" width={20} height={20} />
+        <img loading="lazy" src={icon} alt="" width={20} height={20} />
       </div>
       <div>
         <p style={{
@@ -290,7 +290,7 @@ export default function Contacto() {
             boxShadow: 'inset 0px 0px 20px 0px rgba(76,141,255,0.3)',
             marginBottom: 40,
           }}>
-            <img src={iconStar} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
+            <img loading="lazy" src={iconStar} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
             <span style={{
               fontFamily: FONT_EXP, fontSize: 24, lineHeight: 1.1,
               background: 'linear-gradient(90deg, #002E80 9%, #3162E0 82%, #002E80)',
@@ -333,7 +333,7 @@ export default function Contacto() {
           {/* WhatsApp button */}
           <div className="ct-wa-btn">
             <BotaoFluido href="https://wa.me/351939347863" target="_blank" rel="noopener noreferrer">
-              <img src={iconWA} alt="" width={18} height={18} style={{ flexShrink: 0, marginRight: 8, verticalAlign: 'middle' }} />
+              <img loading="lazy" src={iconWA} alt="" width={18} height={18} style={{ flexShrink: 0, marginRight: 8, verticalAlign: 'middle' }} />
               FALAR NO WHATSAPP
             </BotaoFluido>
           </div>

@@ -142,7 +142,7 @@ function ProjectCard({ project }: { project: Project }) {
         {/* Location */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
           <div style={{ width: 16, height: 16, opacity: 0.5, flexShrink: 0, position: 'relative' }}>
-            <img src={iconPin} alt="" style={{ position: 'absolute', inset: '8.33%', width: 'calc(100% - 16.66%)', height: 'calc(100% - 16.66%)' }} />
+            <img loading="lazy" src={iconPin} alt="" style={{ position: 'absolute', inset: '8.33%', width: 'calc(100% - 16.66%)', height: 'calc(100% - 16.66%)' }} />
           </div>
           <span style={{
             fontFamily: FONT_REG, fontWeight: 400,
@@ -251,7 +251,7 @@ export default function Resultados() {
               boxShadow: 'inset 0px 0px 20px 0px rgba(76,141,255,0.3)',
               alignSelf: 'flex-start',
             }}>
-              <img src={iconStar} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
+              <img loading="lazy" src={iconStar} alt="" width={26} height={26} style={{ flexShrink: 0 }} />
               <span style={{
                 fontFamily: FONT_EXP, fontSize: 24, lineHeight: 1.1,
                 background: 'linear-gradient(90deg, #002E80 9%, #3162E0 82%, #002E80)',

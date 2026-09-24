@@ -38,7 +38,7 @@ export default function FAQ() {
             marginBottom: 32,
             maxWidth: '100%',
           }}>
-            <img src={iconStar} alt="" width={20} height={20} style={{ flexShrink: 0 }} />
+            <img loading="lazy" src={iconStar} alt="" width={20} height={20} style={{ flexShrink: 0 }} />
             <span style={{
               fontFamily: FONT_EXP, fontSize: 16, lineHeight: 1.1,
               background: 'linear-gradient(90deg, #002E80 9%, #3162E0 82%, #002E80)',
