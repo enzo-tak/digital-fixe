@@ -26,19 +26,19 @@ interface Member {
 
 const team: Member[] = [
   {
-    photo: '/assets/agencia-marketing-digital-lisboa-seo-local.jpg',
+    photo: '/assets/agencia-marketing-digital-lisboa-seo-local.webp',
     name: "Juliane Rodrigues",
     role: "Analista de Operações",
     subtitle: "Especialista em Eficiência",
   },
   {
-    photo: '/assets/website-design-pequena-empresa-responsive.jpg',
+    photo: '/assets/website-design-pequena-empresa-responsive.webp',
     name: "Pablo Lima",
     role: "Gerente de Marketing",
     subtitle: "Expert em Google desde 2019",
   },
   {
-    photo: '/assets/guia-criar-website-pequena-empresa-seo.jpg',
+    photo: '/assets/guia-criar-website-pequena-empresa-seo.webp',
     name: "Enzo Takanashi",
     role: "Designer UI & UX",
     subtitle: "Web Designer",

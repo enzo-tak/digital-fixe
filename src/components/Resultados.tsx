@@ -22,7 +22,7 @@ interface Project {
 
 const projects: Project[] = [
   {
-    image: '/assets/case-marketing-saloes-beleza-lisboa.jpg',
+    image: '/assets/case-marketing-saloes-beleza-lisboa.webp',
     badge: '+120% reservas',
     category: 'Restaurante · SEO Local',
     title: 'Restaurante',
@@ -30,7 +30,7 @@ const projects: Project[] = [
     tags: ['SEO Local', 'Google Business', 'Website'],
   },
   {
-    image: '/assets/team-equipa-agencia-marketing-digital.jpg',
+    image: '/assets/team-equipa-agencia-marketing-digital.webp',
     badge: '+95% tráfego',
     category: 'B2B · SEO + Conteúdo',
     title: 'Clínica Veterinária',
@@ -38,7 +38,7 @@ const projects: Project[] = [
     tags: ['SEO', 'Conteúdo', 'Google Business'],
   },
   {
-    image: '/assets/resultados-case-marketing-digital-metricas.jpg',
+    image: '/assets/resultados-case-marketing-digital-metricas.webp',
     badge: '+200% visibilidade',
     category: 'Empresa de Serviços · Estratégia Digital',
     title: 'Empresa Brownie Caseiro',
@@ -46,7 +46,7 @@ const projects: Project[] = [
     tags: ['Estratégia Digital', 'SEO Técnico', 'Conteúdo'],
   },
   {
-    image: '/assets/case-seo-local-pmes-pequenas-empresas.jpg',
+    image: '/assets/case-seo-local-pmes-pequenas-empresas.webp',
     badge: '+85% contactos',
     category: 'Clínica · SEO + Website',
     title: 'Empresa de Móveis',
