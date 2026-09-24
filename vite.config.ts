@@ -11,15 +11,25 @@ export default defineConfig(({ mode }) => {
   // .figma/make/deploy-preview passes `--mode development` for cached-preview builds.
   const emitSourcemaps = mode === 'development'
 
-return {
-  base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : '/',
-  build: {
-    sourcemap: emitSourcemaps ? 'inline' : false,
-    minify: !emitSourcemaps,
-    assetsDir: 'assets',
-    copyPublicDir: true,
-    outDir: 'dist',
-  },
+  return {
+    publicDir: 'public',
+    base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : '/',
+    build: {
+      sourcemap: emitSourcemaps ? 'inline' : false,
+      minify: !emitSourcemaps,
+      assetsDir: 'assets',
+      copyPublicDir: true,
+      outDir: 'dist',
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            'vendor': ['react', 'react-dom'],
+          },
+          chunkFileNames: 'assets/chunk-[hash].js',
+          entryFileNames: 'assets/[name]-[hash].js',
+        },
+      },
+    },
     plugins: [
 react(),
       tailwindcss(),
